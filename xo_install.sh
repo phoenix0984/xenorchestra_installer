@@ -67,6 +67,7 @@ Description= XO Server
 After=network-online.target
 
 [Service]
+Environment=NODE_OPTIONS=--use-openssl-ca
 WorkingDirectory=/opt/xen-orchestra/packages/xo-server/
 ExecStart=/usr/local/bin/node ./bin/xo-server
 Restart=always
