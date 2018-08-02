@@ -6,7 +6,7 @@ The single line installation script allows you to go from a bare-minimal install
 
     sudo bash
     <password>
-    sudo curl https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/xo_install.sh | bash
+    sudo curl https://raw.githubusercontent.com/phoenix0984/xenorchestra_installer/master/xo_install.sh | bash
     <password>
     
 The default username and password are applied, admin@admin.net and admin for the password
